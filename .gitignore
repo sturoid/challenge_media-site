@@ -2,12 +2,16 @@
 
 # dependencies
 /node_modules
+/client/node_modules
 
 # testing
-/coverage
+/client/build
 
 # production
-/build
+/client/build
+
+# Env variables
+dev.js
 
 # misc
 .DS_Store

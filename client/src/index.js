@@ -2,8 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'sanitize.css/sanitize.css';
 import './index.css';
-import App from './layout/App';
+import ErrorBoundary from './components/_shared/ErrorBoundary/';
+import App from './layout/App/';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <ErrorBoundary>
+    <App />
+  </ErrorBoundary>,
+  document.getElementById('root')
+);
+
 registerServiceWorker();

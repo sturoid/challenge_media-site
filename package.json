@@ -1,39 +1,43 @@
 {
-  "name": "code-challenge-behance-api",
+  "name": "code-challenge-behance-api-server",
   "version": "0.1.0",
+  "main": "server.js",
   "author": "Stuart Clove",
+  "description": "",
   "engines": {
     "node": ">= 8.6.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "start": "node server.js",
     "precommit": "lint-staged",
-    "postcommit": "git update-index -g"
+    "postcommit": "git update-index -g",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": [
+    "client/src/**/*.{js,jsx}": [
       "eslint --fix",
       "git add"
     ]
   },
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "sanitize.css": "^6.0.0"
+    "axios": "^0.18.0",
+    "express": "^4.16.3"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.5",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.4",
+    "nodemon": "^1.17.5",
     "prettier": "^1.12.1"
   }
 }
