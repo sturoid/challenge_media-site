@@ -1,0 +1,14 @@
+:local(.app) {
+  text-align: center;
+}
+
+:local(.header) {
+  background-color: #222;
+  color: white;
+  padding: 1rem 0;
+}
+
+:local(.title) {
+  font-size: 1.5em;
+  margin: 0;
+}
