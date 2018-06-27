@@ -5,9 +5,15 @@
     "node": true,
     "jest": true
   },
+  "parser": "babel-eslint",
   "extends": ["airbnb", "plugin:prettier/recommended"],
   "rules": {
     "react/jsx-filename-extension": 0,
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ ],
+      "specialLink": [ "hrefLeft", "hrefRight" ],
+      "aspects": [ "noHref", "invalidHref", "preferButton" ]
+    }],
     "no-use-before-define": ["error", {
       "functions": false,
       "classes": true
