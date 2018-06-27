@@ -1,8 +1,12 @@
-## Getting Started
+## Run Application
+```
+> npm start
+```
 
-First of all, you'll need to fork this repository to somewhere else. Make sure your code is publicly available in a git repository when you're done. (Like Bitbucket or GitHub. If you're super-nerdy and host your own public repo, just make sure the server is up 24/7 - our code-review monkeys like to work in the middle of the night.)
-
-You don't have to host a working copy of the code, we'll be checking it out locally to review it. That's a good reminder - we'll need you to update this document with instructions on how to run your project locally (whether it's a yarn, npm or ng style command, we're fine - just tell us with one!)
+## Run Tests
+```
+> npm test
+```
 
 ## The Challenge
 
