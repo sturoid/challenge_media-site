@@ -10,7 +10,9 @@ const SearchSuggestions = ({ results, fields }) => (
         <div className="responsive-table">
           <table>
             <thead>
-              <tr>{fields.map(field => <th>{field.name}</th>)}</tr>
+              <tr>
+                {fields.map(field => <th key={field.name}>{field.name}</th>)}
+              </tr>
             </thead>
             <tbody>
               {results.map(result => (

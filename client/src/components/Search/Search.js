@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
+import Loader from '../_shared/Loader/';
 import './Search.css';
 import Suggestions from '../SearchSuggestions/';
 import searchFieldType from '../../lib/propTypes';
@@ -8,17 +9,20 @@ import searchFieldType from '../../lib/propTypes';
 class Search extends Component {
   state = {
     error: false,
+    loading: false,
     query: '',
     results: []
   };
 
   getData = () => {
+    this.setState({ loading: true });
+
     axios
       .get(this.props.src, { params: { q: this.state.query } })
       .then(({ data }) => {
-        this.setState({ results: data });
+        this.setState({ results: data, loading: false });
       })
-      .catch(() => this.setState({ error: true }));
+      .catch(() => this.setState({ error: true, loading: false }));
   };
 
   handleInputChange = () => {
@@ -28,9 +32,7 @@ class Search extends Component {
       },
       () => {
         if (this.state.query && this.state.query.length > 1) {
-          if (this.state.query.length % 2 === 0) {
-            this.getData();
-          }
+          this.getData();
         } else if (!this.state.query) {
           this.setState({ results: [] });
         }
@@ -40,7 +42,7 @@ class Search extends Component {
 
   render() {
     const { fields } = this.props;
-    const { results, error } = this.state;
+    const { results, error, loading } = this.state;
     return (
       <form>
         {error && <div className="error">{error}</div>}
@@ -51,8 +53,12 @@ class Search extends Component {
           }}
           onChange={this.handleInputChange}
         />
-        {results &&
-          results.length && <Suggestions results={results} fields={fields} />}
+
+        <Loader loading={loading} />
+
+        {!loading && results && results.length ? (
+          <Suggestions results={results} fields={fields} />
+        ) : null}
       </form>
     );
   }

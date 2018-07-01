@@ -17,6 +17,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
+    "react-spinners": "^0.3.2",
     "react-test-renderer": "^16.4.1",
     "sanitize.css": "^6.0.0"
   },
