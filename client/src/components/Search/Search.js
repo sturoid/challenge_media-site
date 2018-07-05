@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import Loader from '../_shared/Loader/';
-import './Search.css';
 import Suggestions from '../SearchSuggestions/';
 import searchFieldType from '../../lib/propTypes';
+import inputStyle from './Search.styles';
 
 class Search extends Component {
   state = {
@@ -45,8 +45,13 @@ class Search extends Component {
     const { results, error, loading } = this.state;
     return (
       <form>
-        {error && <div className="error">{error}</div>}
+        {error && (
+          <div className="error">
+            Sorry there was an error :(. Please try again.
+          </div>
+        )}
         <input
+          className={inputStyle}
           placeholder="Search for a user..."
           ref={input => {
             this.search = input;
