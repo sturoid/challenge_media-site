@@ -12,7 +12,7 @@ const App = () => (
     <main>
       <Switch>
         <Route exact path="/" component={UsersView} />
-        <Route exact path="/user/:id" component={UserView} />
+        <Route path="/user/:id" component={UserView} />
       </Switch>
     </main>
   </section>

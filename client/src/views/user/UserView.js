@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactRouterPropTypes from 'react-router-prop-types';
+import { Route } from 'react-router-dom';
 import axios from 'axios';
 import Loader from '../../components/_shared/Loader';
+import UserNav from '../../components/users/UserNav/';
 import UserDetails from '../../components/users/UserDetails/';
 import UserStats from '../../components/users/UserStats/';
 import UserFollowers from '../../components/users/UserFollowers/';
@@ -29,22 +31,19 @@ class UserView extends React.Component {
     const path = '/api/v1/user/';
 
     try {
-      const getUsers = await axios.get(`${path}${id}`);
-      const getProjects = await axios.get(`${path}${id}/projects`);
-      const getFollowers = await axios.get(`${path}${id}/followers`);
-      const getStats = await axios.get(`${path}${id}/stats`);
+      const getUsers = axios.get(`${path}${id}`);
+      const getProjects = axios.get(`${path}${id}/projects`);
+      const getStats = axios.get(`${path}${id}/stats`);
 
       const [
         { data: user },
         { data: projects },
-        { data: followers },
         { data: stats }
-      ] = await Promise.all([getUsers, getProjects, getFollowers, getStats]);
+      ] = await Promise.all([getUsers, getProjects, getStats]);
 
       this.setState({
         user,
         projects,
-        followers,
         stats,
         loading: false
       });
@@ -57,18 +56,26 @@ class UserView extends React.Component {
   }
 
   render() {
-    const { loading, error, user, projects, followers, stats } = this.state;
-
+    const { match } = this.props;
+    const { loading, error, user, projects, stats } = this.state;
     if (loading) return <Loader loading={loading} />;
     if (error) return <div>{error.message}</div>;
-
     return (
       <section>
         <div className={wrapper1024}>
           <UserDetails user={user} />
           <UserStats user={stats} />
-          <UserFollowers followers={followers} />
-          <UserProjects projects={projects} />
+
+          <UserNav path={match.url} />
+          <Route
+            exact
+            path={`${match.url}`}
+            render={() => <UserProjects projects={projects} />}
+          />
+          <Route
+            path={`${match.url}/followers`}
+            render={() => <UserFollowers userId={match.params.id} />}
+          />
         </div>
       </section>
     );
