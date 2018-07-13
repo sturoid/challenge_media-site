@@ -1,7 +1,8 @@
 import { css } from 'emotion';
+import { mobileWidth } from './media.styles';
 
 export const flexWrapper = css`
-  @media (min-width: 600px) {
+  @media (min-width: ${mobileWidth}) {
     display: flex;
     flex-wrap: wrap;
   }

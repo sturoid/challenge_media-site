@@ -1,5 +1,10 @@
 import { css } from 'emotion';
-import { greyMid, greyLight, greyLighter } from '../../../lib/colors.styles';
+import {
+  greyDark,
+  greyMid,
+  greyLight,
+  greyLighter
+} from '../../../lib/colors.styles';
 
 const project = css`
   border: 1px solid ${greyLighter};
@@ -19,8 +24,9 @@ const project = css`
     max-width: 246px;
   }
   .title {
-    color: ${greyMid};
-    font-size: 16px;
+    color: ${greyDark};
+    font-size: 13px;
+    font-weight: bold;
     padding: 8px 7px;
     text-align: center;
     height: 57px;
@@ -35,7 +41,7 @@ const project = css`
   }
   .published-date {
     color: ${greyMid};
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
   }
   .fields {
@@ -54,7 +60,7 @@ const project = css`
       display: flex;
       align-items: center;
       span {
-        font-size: 14px;
+        font-size: 12px;
       }
     }
   }

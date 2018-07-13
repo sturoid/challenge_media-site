@@ -8,7 +8,8 @@ import UserDetails from '../../components/users/UserDetails/';
 import UserStats from '../../components/users/UserStats/';
 import UserFollowers from '../../components/users/UserFollowers/';
 import UserProjects from '../../components/users/UserProjects';
-import { wrapper1024 } from '../../lib/wrappers.styles';
+import { flexWrapper, wrapper1024 } from '../../lib/wrappers.styles';
+import { aside, main } from './UserView.styles';
 
 class UserView extends React.Component {
   static propTypes = {
@@ -61,21 +62,25 @@ class UserView extends React.Component {
     if (loading) return <Loader loading={loading} />;
     if (error) return <div>{error.message}</div>;
     return (
-      <section>
-        <div className={wrapper1024}>
-          <UserDetails user={user} />
-          <UserStats user={stats} />
+      <section className={wrapper1024}>
+        <div className={flexWrapper}>
+          <aside className={aside}>
+            <UserDetails user={user} />
+            <UserStats stats={stats.all_time} />
+          </aside>
 
-          <UserNav path={match.url} />
-          <Route
-            exact
-            path={`${match.url}`}
-            render={() => <UserProjects projects={projects} />}
-          />
-          <Route
-            path={`${match.url}/followers`}
-            render={() => <UserFollowers userId={match.params.id} />}
-          />
+          <main className={main}>
+            <UserNav path={match.url} />
+            <Route
+              exact
+              path={`${match.url}`}
+              render={() => <UserProjects projects={projects} />}
+            />
+            <Route
+              path={`${match.url}/followers`}
+              render={() => <UserFollowers userId={match.params.id} />}
+            />
+          </main>
         </div>
       </section>
     );
