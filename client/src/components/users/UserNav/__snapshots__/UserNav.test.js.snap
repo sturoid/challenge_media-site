@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering renders correctly and equals snapshot 1`] = `
+<nav>
+  <a
+    aria-current="page"
+    className="css-ystgrw active"
+    href="#/"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#4E95B1",
+      }
+    }
+  >
+    Projects
+  </a>
+  <a
+    aria-current={null}
+    className="css-ystgrw"
+    href="#//followers"
+    onClick={[Function]}
+    style={undefined}
+  >
+    Followers
+  </a>
+</nav>
+`;

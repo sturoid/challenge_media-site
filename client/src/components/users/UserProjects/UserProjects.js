@@ -77,4 +77,5 @@ UserProjects.propTypes = {
     })
   ).isRequired
 };
+
 export default UserProjects;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering renders correctly and equals snapshot 1`] = `
+Array [
+  <h2>
+    Followers
+</h2>,
+  <div>
+    Florian
+</div>,
+  <div>
+    Amy
+</div>,
+  <div>
+    Maxime
+</div>,
+  <div>
+    Sean
+</div>,
+]
+`;

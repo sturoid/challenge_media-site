@@ -2,7 +2,7 @@ import React from 'react';
 import Search from '../../components/Search/';
 import { wrapper600 } from '../../lib/wrappers.styles';
 
-const UsersView = () => (
+const UsersPage = () => (
   <section>
     <div className={wrapper600}>
       <Search
@@ -17,4 +17,4 @@ const UsersView = () => (
   </section>
 );
 
-export default UsersView;
+export default UsersPage;

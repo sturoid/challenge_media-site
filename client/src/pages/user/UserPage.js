@@ -9,9 +9,9 @@ import UserStats from '../../components/users/UserStats/';
 import UserFollowers from '../../components/users/UserFollowers/';
 import UserProjects from '../../components/users/UserProjects';
 import { flexWrapper, wrapper1024 } from '../../lib/wrappers.styles';
-import { aside, main } from './UserView.styles';
+import { aside, main } from './UserPage.styles';
 
-class UserView extends React.Component {
+class UserPage extends React.Component {
   static propTypes = {
     match: ReactRouterPropTypes.match.isRequired
   };
@@ -87,4 +87,4 @@ class UserView extends React.Component {
   }
 }
 
-export default UserView;
+export default UserPage;

@@ -3,7 +3,22 @@ import PropTypes from 'prop-types';
 import axios from 'axios';
 import Loader from '../../../components/_shared/Loader';
 
-class UserFollowers extends React.Component {
+export const UserFollowers = ({ followers }) => (
+  <React.Fragment>
+    <h2>Followers</h2>
+    {followers.map(f => <div key={f.id}>{f.first_name}</div>)}
+  </React.Fragment>
+);
+
+UserFollowers.propTypes = {
+  followers: PropTypes.arrayOf(
+    PropTypes.shape({
+      first_name: PropTypes.string.isRequired
+    })
+  ).isRequired
+};
+
+class DataContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,14 +41,14 @@ class UserFollowers extends React.Component {
 
   render() {
     const { loading, error, followers } = this.state;
-    console.log(followers);
     if (loading) return <Loader loading={loading} />;
     if (error) return <div>{error.message}</div>;
-    return <h2>Followers</h2>;
+    return <UserFollowers followers={followers} />;
   }
 }
 
-UserFollowers.propTypes = {
+DataContainer.propTypes = {
   userId: PropTypes.string.isRequired
 };
-export default UserFollowers;
+
+export default DataContainer;

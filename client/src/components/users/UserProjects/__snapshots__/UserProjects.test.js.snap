@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering renders correctly and equals snapshot 1`] = `
+Array [
+  <h2>
+    Projects
+</h2>,
+  <div
+    className="css-ab58q9"
+>
+    <a
+        className="css-1buukgy"
+        href="http://www.behance.net/gallery/The-ALVA-Award/3882857"
+        rel="noopener noreferrer"
+        target="_blank"
+    >
+        <div>
+            <img
+                alt="project-cover"
+                src="http://behance.vo.llnwd.net/profiles/50001/projects/3882857/b09a269d4b56d6ff5c640364208d3480.jpg"
+            />
+        </div>
+        <div
+            className="title"
+        >
+            The ALVA Award
+        </div>
+        <div
+            className="published-date"
+        >
+            Published on: 6/6/2012
+        </div>
+        <div
+            className="fields"
+        >
+            <span>
+                Branding
+                 - 
+            </span>
+            <span>
+                Product Design
+                
+            </span>
+        </div>
+        <div
+            className="footer"
+        >
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    1870
+                </span>
+            </div>
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    148
+                </span>
+            </div>
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    15
+                </span>
+            </div>
+        </div>
+    </a>
+    <a
+        className="css-1buukgy"
+        href="http://www.behance.net/gallery/99-Conference-2012-Identity-Branded-Materials/3856261"
+        rel="noopener noreferrer"
+        target="_blank"
+    >
+        <div>
+            <img
+                alt="project-cover"
+                src="http://behance.vo.llnwd.net/profiles10/371633/projects/3856261/9896ba327b0136b1d67230fc31277a3f.jpg"
+            />
+        </div>
+        <div
+            className="title"
+        >
+            99% Conference 2012: Identity & Branded Materials
+        </div>
+        <div
+            className="published-date"
+        >
+            Published on: 5/8/2012
+        </div>
+        <div
+            className="fields"
+        >
+            <span>
+                Branding
+                 - 
+            </span>
+            <span>
+                Graphic Design
+                 - 
+            </span>
+            <span>
+                Print Design
+                
+            </span>
+        </div>
+        <div
+            className="footer"
+        >
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    24186
+                </span>
+            </div>
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    1495
+                </span>
+            </div>
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    113
+                </span>
+            </div>
+        </div>
+    </a>
+    <a
+        className="css-1buukgy"
+        href="http://www.behance.net/gallery/99-Conference-Materials-2011/3872017"
+        rel="noopener noreferrer"
+        target="_blank"
+    >
+        <div>
+            <img
+                alt="project-cover"
+                src="http://behance.vo.llnwd.net/profiles/50001/projects/3872017/31f14060eadcd1dddf2a821702444576.jpg"
+            />
+        </div>
+        <div
+            className="title"
+        >
+            99% Conference Materials 2011
+        </div>
+        <div
+            className="published-date"
+        >
+            Published on: 5/16/2012
+        </div>
+        <div
+            className="fields"
+        >
+            <span>
+                Branding
+                 - 
+            </span>
+            <span>
+                Graphic Design
+                 - 
+            </span>
+            <span>
+                Print Design
+                
+            </span>
+        </div>
+        <div
+            className="footer"
+        >
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    11545
+                </span>
+            </div>
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    623
+                </span>
+            </div>
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    50
+                </span>
+            </div>
+        </div>
+    </a>
+    <a
+        className="css-1buukgy"
+        href="http://www.behance.net/gallery/99-Magazine-2011/3871843"
+        rel="noopener noreferrer"
+        target="_blank"
+    >
+        <div>
+            <img
+                alt="project-cover"
+                src="http://behance.vo.llnwd.net/profiles/50001/projects/3871843/fe68102be885ff02913314f29a522615.jpg"
+            />
+        </div>
+        <div
+            className="title"
+        >
+            99% Magazine 2011
+        </div>
+        <div
+            className="published-date"
+        >
+            Published on: 5/16/2012
+        </div>
+        <div
+            className="fields"
+        >
+            <span>
+                Editorial Design
+                 - 
+            </span>
+            <span>
+                Graphic Design
+                 - 
+            </span>
+            <span>
+                Print Design
+                
+            </span>
+        </div>
+        <div
+            className="footer"
+        >
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    8587
+                </span>
+            </div>
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    506
+                </span>
+            </div>
+            <div>
+                <svg
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                        Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                >
+                    <g>
+                        <path
+                            d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+                        />
+                    </g>
+                </svg>
+                <span>
+                    26
+                </span>
+            </div>
+        </div>
+    </a>
+</div>,
+]
+`;

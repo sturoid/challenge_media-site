@@ -35,7 +35,7 @@ module.exports = app => {
       //   data: { user }
       // } = await axios.get(`${apiPath}/${req.params.id}?${apiAuth}`);
       // res.send(user);
-      res.send(testUser.user);
+      res.send(testUser);
     } catch (e) {
       sendError(e, res);
     }
@@ -49,7 +49,7 @@ module.exports = app => {
       // } = await axios.get(`${apiPath}/${req.params.id}/projects?${apiAuth}`);
 
       // res.send(projects);
-      res.send(testProjects.projects);
+      res.send(testProjects);
     } catch (e) {
       sendError(e, res);
     }
@@ -63,7 +63,7 @@ module.exports = app => {
       // } = await axios.get(`${apiPath}/${req.params.id}/followers?${apiAuth}`);
 
       // res.send(followers);
-      res.send(testFollowers.followers);
+      res.send(testFollowers);
     } catch (e) {
       sendError(e, res);
     }
@@ -77,7 +77,7 @@ module.exports = app => {
       // } = await axios.get(`${apiPath}/${req.params.id}/stats?${apiAuth}`);
 
       // res.send(followers);
-      res.send(testStats.stats);
+      res.send(testStats);
     } catch (e) {
       sendError(e, res);
     }
