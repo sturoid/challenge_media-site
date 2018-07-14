@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { css } from 'emotion';
 import { ScaleLoader } from 'react-spinners';
+import { blue } from '../../../lib/colors.styles';
 
 const container = css`
   background: rgba(255, 255, 255, 0.4);
@@ -20,7 +21,7 @@ const Loader = ({ loading }) => (
   <React.Fragment>
     {loading && (
       <div className={container}>
-        <ScaleLoader loading={loading} color="#4E95B1" />
+        <ScaleLoader loading={loading} color={blue} />
       </div>
     )}
   </React.Fragment>

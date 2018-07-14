@@ -1,3 +1,4 @@
+export const blue = '#4E95B1';
 export const white = 'white';
 export const black = 'black';
 export const greyDark = '#222';
