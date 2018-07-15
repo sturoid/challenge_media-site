@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserFollowers /> renders correctly and equals snapshot 1`] = `
+<h1>
+  Following
+</h1>
+`;
+
+exports[`<UserFollowing /> renders correctly and equals snapshot 1`] = `
+<h1>
+  Following
+</h1>
+`;
