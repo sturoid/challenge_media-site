@@ -1,9 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import EyeOutline from 'react-icons/lib/ti/eye-outline';
 import ThumbsUp from 'react-icons/lib/ti/thumbs-up';
 import Message from 'react-icons/lib/ti/message';
 import userStats from './UserStats.styles';
+import { statsDataFieldType } from '../../../lib/propTypes';
 
 const UserStats = ({ stats }) => (
   <div className={userStats}>
@@ -29,11 +29,6 @@ const UserStats = ({ stats }) => (
 );
 
 UserStats.propTypes = {
-  stats: PropTypes.shape({
-    project_views: PropTypes.number.isRequired,
-    project_appreciations: PropTypes.number.isRequired,
-    project_comments: PropTypes.number.isRequired,
-    profile_views: PropTypes.number.isRequired
-  }).isRequired
+  stats: statsDataFieldType.isRequired
 };
 export default UserStats;

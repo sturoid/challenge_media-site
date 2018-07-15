@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserNav /> renders correctly and equals snapshot 1`] = `
+<header
+  className="css-vyx1fs"
+>
+  <div
+    className="css-vzsrkt"
+  >
+    <div
+      className="css-1sg2lsz"
+    >
+      <h1
+        className="css-xbu0kd"
+      >
+        Behance User Search
+      </h1>
+      <a
+        aria-current="page"
+        className="css-1tl4qs6 active"
+        href="#/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Search
+      </a>
+    </div>
+  </div>
+</header>
+`;

@@ -1,13 +1,4 @@
-const axios = require('axios');
-const keys = require('../config/keys');
-
-const apiPath = 'https://api.behance.net/v2/users';
-const apiAuth = `&client_id=${keys.BEHANCE_API_KEY}`;
-
-const testUser = require('../lib/test-data/user');
-const testProjects = require('../lib/test-data/userProjects');
-const testFollowers = require('../lib/test-data/userFollowers');
-const testStats = require('../lib/test-data/userStats');
+const User = require('../models/user');
 
 const sendError = (e, res) => {
   res.statusText = e.response.statusText;
@@ -18,11 +9,7 @@ module.exports = app => {
   // All users
   app.get('/api/v1/users', async (req, res) => {
     try {
-      const {
-        data: { users }
-      } = await axios.get(`${apiPath}?q=${req.query.q}&${apiAuth}`);
-
-      res.send(users);
+      res.send(await User.search(req.query.q));
     } catch (e) {
       sendError(e, res);
     }
@@ -31,11 +18,7 @@ module.exports = app => {
   // Single user
   app.get('/api/v1/user/:id', async (req, res) => {
     try {
-      // const {
-      //   data: { user }
-      // } = await axios.get(`${apiPath}/${req.params.id}?${apiAuth}`);
-      // res.send(user);
-      res.send(testUser);
+      res.send(await User.get(req.params.id));
     } catch (e) {
       sendError(e, res);
     }
@@ -44,12 +27,7 @@ module.exports = app => {
   // User projects
   app.get('/api/v1/user/:id/projects', async (req, res) => {
     try {
-      // const {
-      //   data: { projects }
-      // } = await axios.get(`${apiPath}/${req.params.id}/projects?${apiAuth}`);
-
-      // res.send(projects);
-      res.send(testProjects);
+      res.send(await User.projects(req.params.id));
     } catch (e) {
       sendError(e, res);
     }
@@ -58,12 +36,7 @@ module.exports = app => {
   // User followers
   app.get('/api/v1/user/:id/followers', async (req, res) => {
     try {
-      // const {
-      //   data: { followers }
-      // } = await axios.get(`${apiPath}/${req.params.id}/followers?${apiAuth}`);
-
-      // res.send(followers);
-      res.send(testFollowers);
+      res.json(await User.followers(req.params.id));
     } catch (e) {
       sendError(e, res);
     }
@@ -72,12 +45,7 @@ module.exports = app => {
   // User stats
   app.get('/api/v1/user/:id/stats', async (req, res) => {
     try {
-      // const {
-      //   data: { stats }
-      // } = await axios.get(`${apiPath}/${req.params.id}/stats?${apiAuth}`);
-
-      // res.send(followers);
-      res.send(testStats);
+      res.send(await User.stats(req.params.id));
     } catch (e) {
       sendError(e, res);
     }

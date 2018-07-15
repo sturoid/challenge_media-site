@@ -18,4 +18,8 @@ export const wrapper1024 = css`
   margin: 0 auto;
   max-width: 100%;
   width: 1024px;
+  padding: 0 30px;
+  @media (min-width: ${mobileWidth}) {
+    padding: 0;
+  }
 `;

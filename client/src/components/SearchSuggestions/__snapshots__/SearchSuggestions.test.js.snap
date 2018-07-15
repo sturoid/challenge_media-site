@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchSuggestions /> renders correctly and equals snapshot 1`] = `
+<div
+  className="css-qijqp5"
+>
+  <table
+    className="css-1z0wrym"
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Age
+        </th>
+        <th>
+          State
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        onClick={[Function]}
+      >
+        <td>
+          Stuart Clove
+        </td>
+        <td>
+          33
+        </td>
+        <td>
+          Utah
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}
+      >
+        <td>
+          Jo Whitney
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          Utah
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}
+      >
+        <td>
+          Cooper Whitney
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          Florida
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

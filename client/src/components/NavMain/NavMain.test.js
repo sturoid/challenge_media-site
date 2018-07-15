@@ -1,12 +1,16 @@
 import React from 'react';
+import { HashRouter as Router } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import UserFollowers from './UserFollowers';
-import followersData from '../../../../../lib/test-data/userFollowers';
+import NavMain from './NavMain';
 
-describe('<UserFollowers />', () => {
+describe('<UserNav />', () => {
   it('renders correctly and equals snapshot', () => {
     const tree = renderer
-      .create(<UserFollowers followers={followersData} />)
+      .create(
+        <Router>
+          <NavMain />
+        </Router>
+      )
       .toJSON();
     expect(tree).toMatchSnapshot();
   });

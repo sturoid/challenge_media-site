@@ -1,21 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Rendering renders correctly and equals snapshot 1`] = `
+exports[`<UserFollowers /> renders correctly and equals snapshot 1`] = `
 Array [
-  <h2>
-    Followers
-</h2>,
-  <div>
-    Florian
+  <div
+    className="css-1duae8j"
+>
+    <div>
+        Florian Schulz
+    </div>
+    <div>
+         Germany
+    </div>
+    <div>
+        Interaction Design Student
+    </div>
 </div>,
-  <div>
-    Amy
+  <div
+    className="css-1duae8j"
+>
+    <div>
+        Amy Moore
+    </div>
+    <div>
+        New York United States
+    </div>
+    <div>
+        First Assistant
+    </div>
 </div>,
-  <div>
-    Maxime
+  <div
+    className="css-1duae8j"
+>
+    <div>
+        Maxime DUBREUCQ
+    </div>
+    <div>
+        California United States
+    </div>
+    <div>
+        Industrial Designer
+    </div>
 </div>,
-  <div>
-    Sean
+  <div
+    className="css-1duae8j"
+>
+    <div>
+        Sean Blanda
+    </div>
+    <div>
+        New York United States
+    </div>
+    <div>
+        Associate Editor
+    </div>
 </div>,
 ]
 `;

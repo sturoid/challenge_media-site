@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Rendering renders correctly and equals snapshot 1`] = `
+exports[`<UserNav /> renders correctly and equals snapshot 1`] = `
 <nav>
   <a
     aria-current="page"
-    className="css-ystgrw active"
+    className="css-19f03z5 active"
     href="#/"
     onClick={[Function]}
     style={
@@ -17,7 +17,7 @@ exports[`Rendering renders correctly and equals snapshot 1`] = `
   </a>
   <a
     aria-current={null}
-    className="css-ystgrw"
+    className="css-19f03z5"
     href="#//followers"
     onClick={[Function]}
     style={undefined}

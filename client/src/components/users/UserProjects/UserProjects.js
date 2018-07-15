@@ -6,11 +6,10 @@ import Message from 'react-icons/lib/ti/message';
 import moment from 'moment';
 import project from './UserProjects.styles';
 import { flexWrapper } from '../../../lib/wrappers.styles';
+import { projectDataFieldType } from '../../../lib/propTypes';
 
 const UserProjects = ({ projects }) => (
   <React.Fragment>
-    <h2>Projects</h2>
-
     <div className={flexWrapper}>
       {projects.map(p => (
         <a
@@ -64,18 +63,7 @@ const UserProjects = ({ projects }) => (
 );
 
 UserProjects.propTypes = {
-  projects: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string,
-      published_on: PropTypes.number,
-      fields: PropTypes.arrayOf(PropTypes.string).isRequired,
-      stats: PropTypes.shape({
-        views: PropTypes.number,
-        appreciations: PropTypes.number,
-        comments: PropTypes.number
-      })
-    })
-  ).isRequired
+  projects: PropTypes.arrayOf(projectDataFieldType).isRequired
 };
 
 export default UserProjects;

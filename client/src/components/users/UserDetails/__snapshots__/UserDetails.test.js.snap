@@ -1,17 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Rendering renders correctly and equals snapshot 1`] = `
+exports[`<UserDetails /> renders correctly and equals snapshot 1`] = `
 <div
   className="css-1rypxo3"
 >
   <div>
-    <img
-      alt="user-avatar"
-      src="http://behance.vo.llnwd.net/profiles/50001/32xac8d5163265f6898d0b970dbfcdf4868.png"
-    />
-  </div>
-  <div>
-    Matias Corea
+    Johny vino™ .
   </div>
   <div>
     New York, United States

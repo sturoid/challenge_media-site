@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Redirect } from 'react-router-dom';
 import { tableResponsive, table } from './SearchSuggestions.styles';
-import searchDataType from '../../lib/propTypes';
+import { searchDataFieldType } from '../../lib/propTypes';
 
 class SearchSuggestions extends React.Component {
   state = {
@@ -57,7 +57,7 @@ class SearchSuggestions extends React.Component {
 
 SearchSuggestions.propTypes = {
   results: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
-  fields: PropTypes.arrayOf(searchDataType).isRequired
+  fields: PropTypes.arrayOf(searchDataFieldType).isRequired
 };
 
 export default SearchSuggestions;

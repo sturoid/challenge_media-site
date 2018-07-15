@@ -5,10 +5,21 @@ export const header = css`
   background-color: ${greyDark};
   color: ${white};
   padding: 10px 0;
-  text-align: center;
 `;
 
 export const h1 = css`
-  font-size: 1.5em;
+  font-weight: normal;
+  font-size: 1.3rem;
   margin: 0;
+`;
+
+export const navItems = css`
+  display: flex;
+  align-items: center;
+`;
+
+export const navLink = css`
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
 `;

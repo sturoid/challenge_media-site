@@ -3,7 +3,7 @@ import { HashRouter as Router } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import UserNav from './UserNav';
 
-describe('Rendering', () => {
+describe('<UserNav />', () => {
   it('renders correctly and equals snapshot', () => {
     const tree = renderer
       .create(

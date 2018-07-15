@@ -1,12 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import axios from 'axios';
-import Loader from '../../../components/_shared/Loader';
+import follower from './UserFollowers.styles';
 
-export const UserFollowers = ({ followers }) => (
+const UserFollowers = ({ followers }) => (
   <React.Fragment>
-    <h2>Followers</h2>
-    {followers.map(f => <div key={f.id}>{f.first_name}</div>)}
+    {followers.map(f => (
+      <div key={f.id} className={follower}>
+        <div>{`${f.first_name} ${f.last_name}`}</div>
+        <div>{`${f.state} ${f.country}`}</div>
+        <div>{f.occupation}</div>
+      </div>
+    ))}
   </React.Fragment>
 );
 
@@ -18,37 +22,4 @@ UserFollowers.propTypes = {
   ).isRequired
 };
 
-class DataContainer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loading: false,
-      error: false,
-      followers: null
-    };
-  }
-
-  componentDidMount() {
-    this.fetchDataAndSetState();
-  }
-
-  async fetchDataAndSetState() {
-    const { data: followers } = await axios.get(
-      `/api/v1/user/${this.props.userId}/followers`
-    );
-    this.setState({ followers });
-  }
-
-  render() {
-    const { loading, error, followers } = this.state;
-    if (loading) return <Loader loading={loading} />;
-    if (error) return <div>{error.message}</div>;
-    return <UserFollowers followers={followers} />;
-  }
-}
-
-DataContainer.propTypes = {
-  userId: PropTypes.string.isRequired
-};
-
-export default DataContainer;
+export default UserFollowers;

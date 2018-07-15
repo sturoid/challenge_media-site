@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import axios from 'axios';
 import Loader from '../_shared/Loader/';
 import Suggestions from '../SearchSuggestions/';
-import searchFieldType from '../../lib/propTypes';
+import { searchDataFieldType } from '../../lib/propTypes';
 import inputStyle from './Search.styles';
 
 class Search extends Component {
@@ -71,7 +71,7 @@ class Search extends Component {
 
 Search.propTypes = {
   src: PropTypes.string.isRequired,
-  fields: PropTypes.arrayOf(searchFieldType).isRequired
+  fields: PropTypes.arrayOf(searchDataFieldType).isRequired
 };
 
 export default Search;

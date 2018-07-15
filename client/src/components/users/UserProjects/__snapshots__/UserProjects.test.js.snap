@@ -1,469 +1,2264 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Rendering renders correctly and equals snapshot 1`] = `
-Array [
-  <h2>
-    Projects
-</h2>,
-  <div
-    className="css-ab58q9"
+exports[`<UserProjects /> renders correctly and equals snapshot 1`] = `
+<div
+  className="css-ab58q9"
 >
-    <a
-        className="css-1buukgy"
-        href="http://www.behance.net/gallery/The-ALVA-Award/3882857"
-        rel="noopener noreferrer"
-        target="_blank"
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60388129/13-Health-medical-interaction-collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/ca803060388129.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
     >
-        <div>
-            <img
-                alt="project-cover"
-                src="http://behance.vo.llnwd.net/profiles/50001/projects/3882857/b09a269d4b56d6ff5c640364208d3480.jpg"
-            />
-        </div>
-        <div
-            className="title"
-        >
-            The ALVA Award
-        </div>
-        <div
-            className="published-date"
-        >
-            Published on: 6/6/2012
-        </div>
-        <div
-            className="fields"
-        >
-            <span>
-                Branding
-                 - 
-            </span>
-            <span>
-                Product Design
-                
-            </span>
-        </div>
-        <div
-            className="footer"
-        >
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    1870
-                </span>
-            </div>
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    148
-                </span>
-            </div>
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    15
-                </span>
-            </div>
-        </div>
-    </a>
-    <a
-        className="css-1buukgy"
-        href="http://www.behance.net/gallery/99-Conference-2012-Identity-Branded-Materials/3856261"
-        rel="noopener noreferrer"
-        target="_blank"
+      13 Health & medical interaction collection
+    </div>
+    <div
+      className="published-date"
     >
-        <div>
-            <img
-                alt="project-cover"
-                src="http://behance.vo.llnwd.net/profiles10/371633/projects/3856261/9896ba327b0136b1d67230fc31277a3f.jpg"
-            />
-        </div>
-        <div
-            className="title"
-        >
-            99% Conference 2012: Identity & Branded Materials
-        </div>
-        <div
-            className="published-date"
-        >
-            Published on: 5/8/2012
-        </div>
-        <div
-            className="fields"
-        >
-            <span>
-                Branding
-                 - 
-            </span>
-            <span>
-                Graphic Design
-                 - 
-            </span>
-            <span>
-                Print Design
-                
-            </span>
-        </div>
-        <div
-            className="footer"
-        >
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    24186
-                </span>
-            </div>
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    1495
-                </span>
-            </div>
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    113
-                </span>
-            </div>
-        </div>
-    </a>
-    <a
-        className="css-1buukgy"
-        href="http://www.behance.net/gallery/99-Conference-Materials-2011/3872017"
-        rel="noopener noreferrer"
-        target="_blank"
+      Published on: 1/22/2018
+    </div>
+    <div
+      className="fields"
     >
-        <div>
-            <img
-                alt="project-cover"
-                src="http://behance.vo.llnwd.net/profiles/50001/projects/3872017/31f14060eadcd1dddf2a821702444576.jpg"
-            />
-        </div>
-        <div
-            className="title"
-        >
-            99% Conference Materials 2011
-        </div>
-        <div
-            className="published-date"
-        >
-            Published on: 5/16/2012
-        </div>
-        <div
-            className="fields"
-        >
-            <span>
-                Branding
-                 - 
-            </span>
-            <span>
-                Graphic Design
-                 - 
-            </span>
-            <span>
-                Print Design
-                
-            </span>
-        </div>
-        <div
-            className="footer"
-        >
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    11545
-                </span>
-            </div>
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    623
-                </span>
-            </div>
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    50
-                </span>
-            </div>
-        </div>
-    </a>
-    <a
-        className="css-1buukgy"
-        href="http://www.behance.net/gallery/99-Magazine-2011/3871843"
-        rel="noopener noreferrer"
-        target="_blank"
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Animation
+        
+      </span>
+    </div>
+    <div
+      className="footer"
     >
-        <div>
-            <img
-                alt="project-cover"
-                src="http://behance.vo.llnwd.net/profiles/50001/projects/3871843/fe68102be885ff02913314f29a522615.jpg"
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
             />
-        </div>
-        <div
-            className="title"
+          </g>
+        </svg>
+        <span>
+          46474
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
         >
-            99% Magazine 2011
-        </div>
-        <div
-            className="published-date"
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          3148
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
         >
-            Published on: 5/16/2012
-        </div>
-        <div
-            className="fields"
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          143
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/54377069/Stunning-Isometric-Illustrations"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/9f782554377069.Y3JvcCwyODg3LDIyNTksMCw3.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      Stunning Isometric Illustrations
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 7/2/2017
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Illustration
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
         >
-            <span>
-                Editorial Design
-                 - 
-            </span>
-            <span>
-                Graphic Design
-                 - 
-            </span>
-            <span>
-                Print Design
-                
-            </span>
-        </div>
-        <div
-            className="footer"
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          15746
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
         >
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    8587
-                </span>
-            </div>
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    506
-                </span>
-            </div>
-            <div>
-                <svg
-                    fill="currentColor"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    style={
-                        Object {
-                            "color": undefined,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                    viewBox="0 0 40 40"
-                    width="1em"
-                >
-                    <g>
-                        <path
-                            d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
-                        />
-                    </g>
-                </svg>
-                <span>
-                    26
-                </span>
-            </div>
-        </div>
-    </a>
-</div>,
-]
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          1332
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          80
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60437071/Collection-of-all-SaaS-and-Enterprise-design-2018"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/6be27560437071.Y3JvcCwxNTM3LDEyMDMsMzQsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      Collection of all SaaS, and Enterprise design 2018
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 2/18/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Animation
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          29261
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          1490
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          33
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/53896977/UIUX-Case-Study-Music-Dating-app"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/e55b0453896977.Y3JvcCwxMTUzLDkwMiwyNSww.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      UI/UX Case Study : Music & Dating app
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 6/17/2017
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Illustration
+         - 
+      </span>
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          34465
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          2098
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          140
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/53917017/100-Mobile-App-UI-Interaction"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/e4b86c53917017.Y3JvcCwyMDI1LDE1ODUsMCww.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      100 Mobile App UI Interaction
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 6/18/2017
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          158011
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          13925
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          520
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/54841295/Process-of-Interaction-Design"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/d73f0354841295.Y3JvcCwyMDI1LDE1ODUsMCww.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      Process of Interaction Design
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 7/25/2017
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          61795
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          5180
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          197
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60390439/12-Food-Drinks-app-Interaction-Collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/eb4b8560390439.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      12 Food & Drinks app Interaction Collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 1/4/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          34889
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          2370
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          84
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60395167/18-Business-Interaction-collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/b7ce2660395167.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      18 Business Interaction collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 1/17/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Animation
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          23126
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          1431
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          55
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60396401/9-Finance-interaction-collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/23b0de60396401.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      9 Finance interaction collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 2/4/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Animation
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          6684
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          478
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          33
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60423095/15-Life-Style-Music-Sports-Interaction-collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/a3e6bb60423095.Y3JvcCwxNTM3LDEyMDMsMzQsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      [15] Life Style, Music, Sports Interaction collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 1/10/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        Animation
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          10864
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          634
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          32
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/54686995/Web-Mobile-responsive-UIUX"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/32f7dd54686995.Y3JvcCwxNTM3LDEyMDMsMCww.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      Web & Mobile responsive UI/UX
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 7/11/2017
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          14237
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          1178
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          101
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/55044263/Sololearn-Brand-Illustration"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/1508bf55044263.Y3JvcCwxNDAzLDEwOTgsMCw4Mjg.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      Sololearn Brand Illustration
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 7/25/2017
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Illustration
+         - 
+      </span>
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Interaction Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          5193
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          456
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          48
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/54533435/Case-Study-of-Stubba-Design"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/6065a154533435.Y3JvcCwyMzA2LDE4MDUsNTEsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      Case Study of Stubba Design
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 7/6/2017
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          9836
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          595
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          51
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60432971/27-Invisible-series-UIUX"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/de83da60432971.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      27 Invisible series UI/UX
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 1/31/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        UI/UX
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          20507
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          1100
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          39
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60399775/7-Travel-Interaction-collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/4ffe9360399775.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      7 Travel Interaction collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 2/27/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        Animation
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          4088
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          276
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          20
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60399115/8-Home-utilities-Interaction-collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/eebb3e60399115.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      8 Home utilities Interaction collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 3/5/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Animation
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          14145
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          951
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          38
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60425353/4-Shopping-Interaction-Collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/fa380560425353.Y3JvcCwxNTM3LDEyMDMsMzQsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      4 Shopping Interaction Collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 3/26/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        Animation
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          1760
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          111
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          5
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60397617/4-Education-Interaction-Collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/7ded9f60397617.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      4 Education Interaction Collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 3/12/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        Animation
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          2724
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          258
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          21
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/60422061/4-Car-and-Navigation-Interaction-Collection"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/d78b9260422061.Y3JvcCw4MTAsNjM0LDAsMA.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      4 Car and Navigation Interaction Collection
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 3/19/2018
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          5511
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          326
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          15
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="css-tnewg8"
+    href="https://www.behance.net/gallery/59098211/Adobelive-on-Behance"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div>
+      <img
+        alt="project-cover"
+        src="https://mir-s3-cdn-cf.behance.net/projects/202/d671fe59098211.Y3JvcCw5ODgsNzc0LDIyNyww.png"
+      />
+    </div>
+    <div
+      className="title"
+    >
+      Adobelive on Behance
+    </div>
+    <div
+      className="published-date"
+    >
+      Published on: 11/21/2017
+    </div>
+    <div
+      className="fields"
+    >
+      <span>
+        Interaction Design
+         - 
+      </span>
+      <span>
+        UI/UX
+         - 
+      </span>
+      <span>
+        Web Design
+        
+      </span>
+    </div>
+    <div
+      className="footer"
+    >
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m20 15c2 0 4 0.6 5.5 1.7 2.2 1.5 4 3.5 5.3 5-1.3 1.4-3.1 3.4-5.3 5-1.5 1-3.5 1.6-5.5 1.6s-4-0.6-5.5-1.6c-2.2-1.6-4-3.6-5.3-5 1.3-1.5 3.1-3.5 5.3-5 1.5-1.1 3.5-1.7 5.5-1.7z m0-3.3c-2.8 0-5.4 0.8-7.4 2.3-4.4 3-7.6 7.7-7.6 7.7s3.2 4.6 7.6 7.7c2 1.4 4.6 2.3 7.4 2.3s5.4-0.9 7.4-2.3c4.4-3.1 7.6-7.7 7.6-7.7s-3.2-4.7-7.6-7.7c-2-1.5-4.6-2.3-7.4-2.3z m0 8.3c-0.9 0-1.7 0.7-1.7 1.7 0 0.9 0.8 1.6 1.7 1.6 0.9 0 1.7-0.7 1.7-1.6 0-1-0.8-1.7-1.7-1.7z m0 6.7c-2.8 0-5-2.3-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z m0-8.4c-1.8 0-3.3 1.5-3.3 3.4s1.5 3.3 3.3 3.3 3.3-1.5 3.3-3.3-1.5-3.4-3.3-3.4z"
+            />
+          </g>
+        </svg>
+        <span>
+          4636
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m32.6 14.5c-0.6-0.3-4.2-0.7-6.5-1 0.4-2.1 0.6-4 0.6-6 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 3.1-1.1 4.6-2.7 6.2-0.9-1.2-2.3-2-3.9-2-2.8 0-5 2.2-5 5v10c0 2.7 2.2 5 5 5 1.2 0 2.4-0.5 3.2-1.3 0.1 0.1 0.2 0.2 0.4 0.3 1.6 1.3 6.1 2.6 9.7 2.6 3.1 0 4.3-0.5 5.4-0.9 0.2-0.1 0.4-0.1 0.6-0.2 1.3-0.5 2.6-2 2.8-3.7l1.2-9.9c0.2-1.7-0.8-3.6-2.4-4.1z m-20.9 13.8c-1 0-1.7-0.7-1.7-1.6v-10c0-1 0.7-1.7 1.7-1.7s1.6 0.7 1.6 1.7v10c0 0.9-0.7 1.6-1.6 1.6z m18.8-0.2c0 0.4-0.4 0.9-0.7 1-0.2 0.1-0.4 0.1-0.6 0.2-0.9 0.4-1.7 0.7-4.2 0.7-3.2 0-6.9-1.3-7.7-1.9-0.3-0.2-0.6-1-0.6-1.4v-8.3c0-0.1 0.1-1.1 1.1-2.2 1.6-1.5 3.9-3.8 3.9-8.7 0-0.5 0.3-0.8 0.8-0.8s0.8 0.3 0.8 0.8c0 2.3-0.2 4.5-0.8 7.2l-0.5 2.3 2.2-0.3c1 0 6.6 0.7 7.3 0.9 0.1 0 0.2 0.3 0.1 0.5l-1.1 10z"
+            />
+          </g>
+        </svg>
+        <span>
+          220
+        </span>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m30 11.7c0.9 0 1.7 0.7 1.7 1.6v11.7c0 0.9-0.8 1.7-1.7 1.7h-14.7l-0.3 0.3v-0.3h-5c-0.9 0-1.7-0.8-1.7-1.7v-11.7c0-0.9 0.8-1.6 1.7-1.6h20z m0-3.4h-20c-2.7 0-5 2.3-5 5v11.7c0 2.8 2.3 5 5 5h1.7v5l5-5h13.3c2.8 0 5-2.2 5-5v-11.7c0-2.7-2.2-5-5-5z"
+            />
+          </g>
+        </svg>
+        <span>
+          6
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
 `;

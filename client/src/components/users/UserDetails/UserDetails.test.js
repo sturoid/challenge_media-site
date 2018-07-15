@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import UserDetails from './UserDetails';
 import userData from '../../../../../lib/test-data/user';
 
-describe('Rendering', () => {
+describe('<UserDetails />', () => {
   it('renders correctly and equals snapshot', () => {
     const tree = renderer.create(<UserDetails user={userData} />).toJSON();
     expect(tree).toMatchSnapshot();
