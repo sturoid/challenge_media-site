@@ -14,6 +14,20 @@ const UserNav = ({ path }) => (
       Projects
     </NavLink>
     <NavLink
+      to={`${path}/work-experience`}
+      className={linkClass}
+      activeStyle={{ color: '#4E95B1' }}
+    >
+      Work Experience
+    </NavLink>
+    <NavLink
+      to={`${path}/following`}
+      className={linkClass}
+      activeStyle={{ color: '#4E95B1' }}
+    >
+      Following
+    </NavLink>
+    <NavLink
       to={`${path}/followers`}
       className={linkClass}
       activeStyle={{ color: '#4E95B1' }}

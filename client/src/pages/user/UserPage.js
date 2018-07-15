@@ -7,6 +7,8 @@ import UserNav from '../../components/users/UserNav/';
 import UserDetails from '../../components/users/UserDetails/';
 import UserStats from '../../components/users/UserStats/';
 import UserFollowers from '../../components/users/UserFollowers/';
+import UserWorkExperience from '../../components/users/UserWorkExperience/';
+import UserFollowing from '../../components/users/UserFollowing/';
 import UserProjects from '../../components/users/UserProjects';
 import { flexWrapper, wrapper1024 } from '../../lib/wrappers.styles';
 import { aside, main } from './UserPage.styles';
@@ -32,7 +34,7 @@ class UserPage extends React.Component {
     const path = '/api/v1/user/';
 
     try {
-      const getUsers = axios.get(`${path}${id}`);
+      const getUser = axios.get(`${path}${id}`);
       const getProjects = axios.get(`${path}${id}/projects`);
       const getStats = axios.get(`${path}${id}/stats`);
 
@@ -40,7 +42,7 @@ class UserPage extends React.Component {
         { data: user },
         { data: projects },
         { data: stats }
-      ] = await Promise.all([getUsers, getProjects, getStats]);
+      ] = await Promise.all([getUser, getProjects, getStats]);
 
       this.setState({
         user,
@@ -75,6 +77,14 @@ class UserPage extends React.Component {
               exact
               path={`${match.url}`}
               render={() => <UserProjects projects={projects} />}
+            />
+            <Route
+              path={`${match.url}/work-experience`}
+              render={() => <UserWorkExperience userId={match.params.id} />}
+            />
+            <Route
+              path={`${match.url}/following`}
+              render={() => <UserFollowing userId={match.params.id} />}
             />
             <Route
               path={`${match.url}/followers`}

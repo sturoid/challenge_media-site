@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserFollowers /> renders correctly and equals snapshot 1`] = `
+Array [
+  <div
+    className="css-1duae8j"
+>
+    <div>
+        Florian Schulz
+    </div>
+    <div>
+         Germany
+    </div>
+    <div>
+        Interaction Design Student
+    </div>
+</div>,
+  <div
+    className="css-1duae8j"
+>
+    <div>
+        Amy Moore
+    </div>
+    <div>
+        New York United States
+    </div>
+    <div>
+        First Assistant
+    </div>
+</div>,
+  <div
+    className="css-1duae8j"
+>
+    <div>
+        Maxime DUBREUCQ
+    </div>
+    <div>
+        California United States
+    </div>
+    <div>
+        Industrial Designer
+    </div>
+</div>,
+  <div
+    className="css-1duae8j"
+>
+    <div>
+        Sean Blanda
+    </div>
+    <div>
+        New York United States
+    </div>
+    <div>
+        Associate Editor
+    </div>
+</div>,
+]
+`;
