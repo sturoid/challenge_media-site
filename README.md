@@ -1,5 +1,5 @@
 ## Run Application
-Place dev.js file in config folder so the Behance API key is present.
+Place the dev.js file in the config folder so the Behance API key is present.
 
 ```
 > npm install
