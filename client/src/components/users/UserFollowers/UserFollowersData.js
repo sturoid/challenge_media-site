@@ -19,10 +19,12 @@ class UserFollowersData extends React.Component {
   }
 
   async fetchDataAndSetState() {
+    this.setState({ loading: true });
+
     const { data: followers } = await axios.get(
       `/api/v1/user/${this.props.userId}/followers`
     );
-    this.setState({ followers });
+    this.setState({ followers, loading: false });
   }
 
   render() {

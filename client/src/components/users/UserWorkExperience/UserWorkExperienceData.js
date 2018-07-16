@@ -19,10 +19,13 @@ class UserWorkExperienceData extends React.Component {
   }
 
   async fetchDataAndSetState() {
+    this.setState({ loading: true });
+
     const { data: work } = await axios.get(
       `/api/v1/user/${this.props.userId}/work-experience`
     );
-    this.setState({ work });
+
+    this.setState({ work, loading: false });
   }
 
   render() {
