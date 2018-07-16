@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Redirect } from 'react-router-dom';
-import { tableResponsive, table } from './SearchSuggestions.styles';
 import { searchDataFieldType } from '../../lib/propTypes';
+import Table from '../_shared/Table/';
 
 class SearchSuggestions extends React.Component {
   state = {
@@ -26,29 +26,25 @@ class SearchSuggestions extends React.Component {
       <React.Fragment>
         {results &&
           results.length && (
-            <div className={tableResponsive}>
-              <table className={table}>
-                <thead>
-                  <tr>
+            <Table>
+              <thead>
+                <tr>
+                  {fields.map(field => <th key={field.name}>{field.name}</th>)}
+                </tr>
+              </thead>
+              <tbody>
+                {results.map(result => (
+                  <tr
+                    key={result.id}
+                    onClick={e => this.handleClick(e, result.id)}
+                  >
                     {fields.map(field => (
-                      <th key={field.name}>{field.name}</th>
+                      <td key={field.name}>{result[field.value]}</td>
                     ))}
                   </tr>
-                </thead>
-                <tbody>
-                  {results.map(result => (
-                    <tr
-                      key={result.id}
-                      onClick={e => this.handleClick(e, result.id)}
-                    >
-                      {fields.map(field => (
-                        <td key={field.name}>{result[field.value]}</td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </Table>
           )}
       </React.Fragment>
     );

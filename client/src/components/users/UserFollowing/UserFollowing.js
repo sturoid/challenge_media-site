@@ -1,19 +1,39 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import follower from './UserFollowing.styles';
+import PropTypes from 'prop-types';
+import Table from '../../_shared/Table';
 
-const UserFollowing = () => (
-  <React.Fragment>
-    <h1>Following</h1>
-  </React.Fragment>
+const UserFollowing = ({ following }) => (
+  <Table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Occupation</th>
+      </tr>
+    </thead>
+    <tbody>
+      {following.map(f => (
+        <tr key={f.id}>
+          <td>{`${f.first_name} ${f.last_name}`}</td>
+          <td>{`${f.state} ${f.country}`}</td>
+          <td>{`${f.occupation}`}</td>
+        </tr>
+      ))}
+    </tbody>
+  </Table>
 );
 
-// UserFollowing.propTypes = {
-//   followers: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       first_name: PropTypes.string.isRequired
-//     })
-//   ).isRequired
-// };
+UserFollowing.propTypes = {
+  following: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      first_name: PropTypes.string.isRequired,
+      last_name: PropTypes.string.isRequired,
+      state: PropTypes.string.isRequired,
+      country: PropTypes.string.isRequired,
+      occupation: PropTypes.string.isRequired
+    })
+  ).isRequired
+};
 
 export default UserFollowing;

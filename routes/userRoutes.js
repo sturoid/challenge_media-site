@@ -42,10 +42,28 @@ module.exports = app => {
     }
   });
 
+  // User following
+  app.get('/api/v1/user/:id/following', async (req, res) => {
+    try {
+      res.send(await User.following(req.params.id));
+    } catch (e) {
+      sendError(e, res);
+    }
+  });
+
   // User stats
   app.get('/api/v1/user/:id/stats', async (req, res) => {
     try {
       res.send(await User.stats(req.params.id));
+    } catch (e) {
+      sendError(e, res);
+    }
+  });
+
+  // User work experience
+  app.get('/api/v1/user/:id/work-experience', async (req, res) => {
+    try {
+      res.send(await User.workExperience(req.params.id));
     } catch (e) {
       sendError(e, res);
     }

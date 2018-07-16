@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<UserFollowers /> renders correctly and equals snapshot 1`] = `
+exports[`<UserWorkExperience /> renders correctly and equals snapshot 1`] = `
 <div
   className="css-qijqp5"
 >
@@ -10,59 +10,70 @@ exports[`<UserFollowers /> renders correctly and equals snapshot 1`] = `
     <thead>
       <tr>
         <th>
-          Name
+          Position
+        </th>
+        <th>
+          Organization
         </th>
         <th>
           Location
-        </th>
-        <th>
-          Occupation
         </th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>
-          Florian Schulz
+          Co-Founder & Chief of Design
         </td>
         <td>
-           Germany
+          Behance
         </td>
         <td>
-          Interaction Design Student
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Amy Moore
-        </td>
-        <td>
-          New York United States
-        </td>
-        <td>
-          First Assistant
+          Brooklyn, NY, USA
         </td>
       </tr>
       <tr>
         <td>
-          Maxime DUBREUCQ
+          Senior Designer
         </td>
         <td>
-          California United States
+          AR Media
         </td>
         <td>
-          Industrial Designer
+          Brooklyn, NY, USA
         </td>
       </tr>
       <tr>
         <td>
-          Sean Blanda
+          Senior Designer
         </td>
         <td>
-          New York United States
+          Pro Am
         </td>
         <td>
-          Associate Editor
+          New York, NY, USA
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Junior Designer
+        </td>
+        <td>
+          Zeligmedia
+        </td>
+        <td>
+          Barcelona, Spain
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Junior Designer
+        </td>
+        <td>
+          Triada ComunicaciÃ³n
+        </td>
+        <td>
+          Barcelona, Spain
         </td>
       </tr>
     </tbody>

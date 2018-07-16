@@ -1,6 +1,6 @@
 import { css } from 'emotion';
-import { greyLight, greyLighter } from '../../lib/colors.styles';
-import { mobileWidth } from '../../lib/media.styles';
+import { greyLight, greyLighter } from '../../../lib/colors.styles';
+import { mobileWidth } from '../../../lib/media.styles';
 
 export const tableResponsive = css`
   overflow-x: auto;

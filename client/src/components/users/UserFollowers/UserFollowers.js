@@ -1,23 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import follower from './UserFollowers.styles';
+import Table from '../../_shared/Table';
 
 const UserFollowers = ({ followers }) => (
-  <React.Fragment>
-    {followers.map(f => (
-      <div key={f.id} className={follower}>
-        <div>{`${f.first_name} ${f.last_name}`}</div>
-        <div>{`${f.state} ${f.country}`}</div>
-        <div>{f.occupation}</div>
-      </div>
-    ))}
-  </React.Fragment>
+  <Table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Occupation</th>
+      </tr>
+    </thead>
+    <tbody>
+      {followers.map(f => (
+        <tr key={f.id}>
+          <td>{`${f.first_name} ${f.last_name}`}</td>
+          <td>{`${f.state} ${f.country}`}</td>
+          <td>{`${f.occupation}`}</td>
+        </tr>
+      ))}
+    </tbody>
+  </Table>
 );
 
 UserFollowers.propTypes = {
   followers: PropTypes.arrayOf(
     PropTypes.shape({
-      first_name: PropTypes.string.isRequired
+      id: PropTypes.number.isRequired,
+      first_name: PropTypes.string.isRequired,
+      last_name: PropTypes.string.isRequired,
+      state: PropTypes.string.isRequired,
+      country: PropTypes.string.isRequired,
+      occupation: PropTypes.string.isRequired
     })
   ).isRequired
 };

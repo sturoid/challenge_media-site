@@ -18,6 +18,24 @@ exports[`<UserNav /> renders correctly and equals snapshot 1`] = `
   <a
     aria-current={null}
     className="css-19f03z5"
+    href="#//work-experience"
+    onClick={[Function]}
+    style={undefined}
+  >
+    Work Experience
+  </a>
+  <a
+    aria-current={null}
+    className="css-19f03z5"
+    href="#//following"
+    onClick={[Function]}
+    style={undefined}
+  >
+    Following
+  </a>
+  <a
+    aria-current={null}
+    className="css-19f03z5"
     href="#//followers"
     onClick={[Function]}
     style={undefined}
