@@ -14,58 +14,58 @@ module.exports = app => {
       sendError(e, res);
     }
   });
-
-  // Single user
-  app.get('/api/v1/user/:id', async (req, res) => {
-    try {
-      res.send(await User.get(req.params.id));
-    } catch (e) {
-      sendError(e, res);
-    }
-  });
-
-  // User projects
-  app.get('/api/v1/user/:id/projects', async (req, res) => {
-    try {
-      res.send(await User.projects(req.params.id));
-    } catch (e) {
-      sendError(e, res);
-    }
-  });
-
-  // User followers
-  app.get('/api/v1/user/:id/followers', async (req, res) => {
-    try {
-      res.json(await User.followers(req.params.id));
-    } catch (e) {
-      sendError(e, res);
-    }
-  });
-
-  // User following
-  app.get('/api/v1/user/:id/following', async (req, res) => {
-    try {
-      res.send(await User.following(req.params.id));
-    } catch (e) {
-      sendError(e, res);
-    }
-  });
-
-  // User stats
-  app.get('/api/v1/user/:id/stats', async (req, res) => {
-    try {
-      res.send(await User.stats(req.params.id));
-    } catch (e) {
-      sendError(e, res);
-    }
-  });
-
-  // User work experience
-  app.get('/api/v1/user/:id/work-experience', async (req, res) => {
-    try {
-      res.send(await User.workExperience(req.params.id));
-    } catch (e) {
-      sendError(e, res);
-    }
-  });
+  //
+  // // Single user
+  // app.get('/api/v1/user/:id', async (req, res) => {
+  //   try {
+  //     res.send(await User.get(req.params.id));
+  //   } catch (e) {
+  //     sendError(e, res);
+  //   }
+  // });
+  //
+  // // User projects
+  // app.get('/api/v1/user/:id/projects', async (req, res) => {
+  //   try {
+  //     res.send(await User.projects(req.params.id));
+  //   } catch (e) {
+  //     sendError(e, res);
+  //   }
+  // });
+  //
+  // // User followers
+  // app.get('/api/v1/user/:id/followers', async (req, res) => {
+  //   try {
+  //     res.json(await User.followers(req.params.id));
+  //   } catch (e) {
+  //     sendError(e, res);
+  //   }
+  // });
+  //
+  // // User following
+  // app.get('/api/v1/user/:id/following', async (req, res) => {
+  //   try {
+  //     res.send(await User.following(req.params.id));
+  //   } catch (e) {
+  //     sendError(e, res);
+  //   }
+  // });
+  //
+  // // User stats
+  // app.get('/api/v1/user/:id/stats', async (req, res) => {
+  //   try {
+  //     res.send(await User.stats(req.params.id));
+  //   } catch (e) {
+  //     sendError(e, res);
+  //   }
+  // });
+  //
+  // // User work experience
+  // app.get('/api/v1/user/:id/work-experience', async (req, res) => {
+  //   try {
+  //     res.send(await User.workExperience(req.params.id));
+  //   } catch (e) {
+  //     sendError(e, res);
+  //   }
+  // });
 };

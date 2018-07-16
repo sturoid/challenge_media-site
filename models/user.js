@@ -55,10 +55,10 @@ class User {
 
   static async workExperience(id) {
     const {
-      data: { followers }
-    } = await axios.get(`${apiPath}/${id}/followers?${apiAuth}`);
+      data: { workExperience }
+    } = await axios.get(`${apiPath}/${id}/work_experience?${apiAuth}`);
 
-    return followers;
+    return workExperience || [];
   }
 }
 
