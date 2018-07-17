@@ -1,6 +1,7 @@
 const typeDefs = `
   type Project {
     id: ID!
+    url: String
     name: String
     fields: [String]
     published_on: Int

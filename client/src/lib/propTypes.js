@@ -28,6 +28,5 @@ export const userDataFieldType = PropTypes.shape({
 export const statsDataFieldType = PropTypes.shape({
   project_views: PropTypes.number.isRequired,
   project_appreciations: PropTypes.number.isRequired,
-  project_comments: PropTypes.number.isRequired,
-  profile_views: PropTypes.number.isRequired
+  project_comments: PropTypes.number.isRequired
 });

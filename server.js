@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const cors = require('cors');
 const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 const compression = require('compression');
 const bodyParser = require('body-parser');
@@ -9,7 +10,12 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(compression());
-app.use('/graphql', bodyParser.json(), graphqlExpress({ schema: gqlSchema }));
+app.use(
+  '/graphql',
+  cors(),
+  bodyParser.json(),
+  graphqlExpress({ schema: gqlSchema })
+);
 app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
 
 if (process.env.NODE_ENV === 'production') {

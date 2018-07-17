@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom';
-import UsersPage from '../../pages/users/UsersPage';
-import UserPage from '../../pages/user/UserPage';
+import UsersPage from '../../pages/users/';
+import UserPage from '../../pages/user/';
 import NavMain from '../../components/NavMain/';
 
 export const App = () => (
