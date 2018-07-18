@@ -1,40 +1,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import axios from 'axios';
+import { Query } from 'react-apollo';
+import { gql } from 'apollo-boost';
 import Loader from '../../../components/_shared/Loader';
 import UserFollowing from './UserFollowing';
 
-class UserFollowersData extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loading: false,
-      error: false,
-      following: []
-    };
+const GET_USER_FOLLOWERS = gql`
+  query userFollowing($id: String!) {
+    userFollowing(id: $id) {
+      id
+      name
+      location
+      occupation
+    }
   }
+`;
 
-  componentDidMount() {
-    this.fetchDataAndSetState();
-  }
+const UserFollowingData = ({ userId }) => (
+  <Query query={GET_USER_FOLLOWERS} variables={{ id: userId }}>
+    {({ loading, error, data }) => {
+      if (loading) return <Loader loading />;
+      if (error) return `Error! ${error.message}`;
+      return <UserFollowing following={data.userFollowing} />;
+    }}
+  </Query>
+);
 
-  async fetchDataAndSetState() {
-    const { data: following } = await axios.get(
-      `/api/v1/user/${this.props.userId}/following`
-    );
-    this.setState({ following });
-  }
-
-  render() {
-    const { loading, error, following } = this.state;
-    if (loading) return <Loader loading={loading} />;
-    if (error) return <div>{error.message}</div>;
-    return <UserFollowing following={following} />;
-  }
-}
-
-UserFollowersData.propTypes = {
+UserFollowingData.propTypes = {
   userId: PropTypes.string.isRequired
 };
 
-export default UserFollowersData;
+export default UserFollowingData;

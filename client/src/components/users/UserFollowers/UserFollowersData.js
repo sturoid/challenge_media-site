@@ -1,37 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import axios from 'axios';
+import { Query } from 'react-apollo';
+import { gql } from 'apollo-boost';
 import Loader from '../../../components/_shared/Loader';
 import UserFollowers from './UserFollowers';
 
-class UserFollowersData extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loading: false,
-      error: false,
-      followers: []
-    };
+const GET_USER_FOLLOWERS = gql`
+  query userFollowers($id: String!) {
+    userFollowers(id: $id) {
+      id
+      name
+      location
+      occupation
+    }
   }
+`;
 
-  componentDidMount() {
-    this.fetchDataAndSetState();
-  }
-
-  async fetchDataAndSetState() {
-    const { data: followers } = await axios.get(
-      `/api/v1/user/${this.props.userId}/followers`
-    );
-    this.setState({ followers });
-  }
-
-  render() {
-    const { loading, error, followers } = this.state;
-    if (loading) return <Loader loading={loading} />;
-    if (error) return <div>{error.message}</div>;
-    return <UserFollowers followers={followers} />;
-  }
-}
+const UserFollowersData = ({ userId }) => (
+  <Query query={GET_USER_FOLLOWERS} variables={{ id: userId }}>
+    {({ loading, error, data }) => {
+      if (loading) return <Loader loading />;
+      if (error) return `Error! ${error.message}`;
+      return <UserFollowers followers={data.userFollowers} />;
+    }}
+  </Query>
+);
 
 UserFollowersData.propTypes = {
   userId: PropTypes.string.isRequired

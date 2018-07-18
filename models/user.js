@@ -33,7 +33,6 @@ class User {
     const {
       data: { followers }
     } = await axios.get(`${apiPath}/${id}/followers?${apiAuth}`);
-
     return followers;
   }
 

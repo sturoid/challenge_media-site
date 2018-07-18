@@ -1,37 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import axios from 'axios';
+import { Query } from 'react-apollo';
+import { gql } from 'apollo-boost';
 import Loader from '../../../components/_shared/Loader';
 import UserWorkExperience from './UserWorkExperience';
 
-class UserWorkExperienceData extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loading: false,
-      error: false,
-      work: []
-    };
+const GET_USER_WORK_EXPERIENCE = gql`
+  query userWork($id: String!) {
+    userWork(id: $id) {
+      position
+      organization
+      location
+    }
   }
+`;
 
-  componentDidMount() {
-    this.fetchDataAndSetState();
-  }
-
-  async fetchDataAndSetState() {
-    const { data: work } = await axios.get(
-      `/api/v1/user/${this.props.userId}/work-experience`
-    );
-    this.setState({ work });
-  }
-
-  render() {
-    const { loading, error, work } = this.state;
-    if (loading) return <Loader loading={loading} />;
-    if (error) return <div>{error.message}</div>;
-    return <UserWorkExperience work={work} />;
-  }
-}
+const UserWorkExperienceData = ({ userId }) => (
+  <Query query={GET_USER_WORK_EXPERIENCE} variables={{ id: userId }}>
+    {({ loading, error, data }) => {
+      if (loading) return <Loader loading />;
+      if (error) return `Error! ${error.message}`;
+      console.log(data.userWork);
+      return <UserWorkExperience following={data.userWork} />;
+    }}
+  </Query>
+);
 
 UserWorkExperienceData.propTypes = {
   userId: PropTypes.string.isRequired

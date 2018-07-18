@@ -14,9 +14,9 @@ const UserFollowers = ({ followers }) => (
     <tbody>
       {followers.map(f => (
         <tr key={f.id}>
-          <td>{`${f.first_name} ${f.last_name}`}</td>
-          <td>{`${f.state} ${f.country}`}</td>
-          <td>{`${f.occupation}`}</td>
+          <td>{f.name}</td>
+          <td>{f.location}</td>
+          <td>{f.occupation}</td>
         </tr>
       ))}
     </tbody>
@@ -26,11 +26,9 @@ const UserFollowers = ({ followers }) => (
 UserFollowers.propTypes = {
   followers: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      first_name: PropTypes.string.isRequired,
-      last_name: PropTypes.string.isRequired,
-      state: PropTypes.string.isRequired,
-      country: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      location: PropTypes.string.isRequired,
       occupation: PropTypes.string.isRequired
     })
   ).isRequired

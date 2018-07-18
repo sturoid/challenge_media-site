@@ -9,7 +9,7 @@
   },
   "scripts": {
     "client": "cd client && npm start",
-    "server": "nodemon server.js",
+    "server": "nodemon -w routes -w models -w lib -w graphql -w config server.js ",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "start": "node server.js",
     "precommit": "lint-staged",

@@ -6,14 +6,11 @@ import Loader from '../../components/_shared/Loader';
 import UserPage from './UserPage';
 
 const GET_USER = gql`
-  query user($id: Int!) {
+  query user($id: String!) {
     user(id: $id) {
-      first_name
-      last_name
-      username
-      city
-      state
-      country
+      id
+      name
+      location
       stats {
         all_time {
           project_views
@@ -39,7 +36,7 @@ const GET_USER = gql`
 `;
 
 const UserPageData = ({ match }) => (
-  <Query query={GET_USER} variables={{ id: parseInt(match.params.id, 10) }}>
+  <Query query={GET_USER} variables={{ id: match.params.id }}>
     {({ loading, error, data }) => {
       if (loading) return <Loader loading />;
       if (error) return `Error!: ${error}`;

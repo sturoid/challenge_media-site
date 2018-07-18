@@ -4,8 +4,8 @@ import { userDataFieldType } from '../../../lib/propTypes';
 
 const UserDetails = ({ user }) => (
   <div className={userDetails}>
-    <div>{`${user.first_name} ${user.last_name}`}</div>
-    <div>{`${user.state}, ${user.country}`}</div>
+    <div>{user.name}</div>
+    <div>{user.location}</div>
   </div>
 );
 

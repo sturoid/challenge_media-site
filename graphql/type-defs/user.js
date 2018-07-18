@@ -1,10 +1,10 @@
 const typeDefs = `
   type Query {
     users(query: String!): [User]
-    user(id: Int!): User
-    userFollowers(id: Int!): [User]
-    userFollowing(id: Int!): [User]
-    userWork(id: Int!): [UserWork]
+    user(id: String!): User
+    userFollowers(id: String!): [User]
+    userFollowing(id: String!): [User]
+    userWork(id: String!): [UserWork]
   }
 
   type User {

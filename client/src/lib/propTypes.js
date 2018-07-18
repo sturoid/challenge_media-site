@@ -17,12 +17,9 @@ export const projectDataFieldType = PropTypes.shape({
 });
 
 export const userDataFieldType = PropTypes.shape({
-  first_name: PropTypes.string.isRequired,
-  last_name: PropTypes.string.isRequired,
-  username: PropTypes.string.isRequired,
-  city: PropTypes.string.isRequired,
-  state: PropTypes.string.isRequired,
-  country: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  occupation: PropTypes.string
 });
 
 export const statsDataFieldType = PropTypes.shape({
