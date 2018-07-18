@@ -1,5 +1,9 @@
 ## Run Application
 Place the dev.js file in the config folder so the Behance API key is present.
+* react-only branch - Data layer uses React only.
+* graphql branch - Data layer uses GraphQL with Apollo.
+* TODO: redux branch - Data layer uses Redux.
+* TODO: mobx branch - Data layer uses Mobx. 
 
 ```
 > npm install
@@ -18,7 +22,6 @@ If concurrently doesn't run for some reason you might need to install it globall
 ```
 
 #### TODO
-* GraphQL branch: Complete by finishing Apollo front end.
 * GraphQL branch: Write jest tests for GraphQL resolvers.
 * Redux branch: Rewrite data layer using Redux and push to branch.
 * Redux branch: Test Redux resolvers and API endpoints.
