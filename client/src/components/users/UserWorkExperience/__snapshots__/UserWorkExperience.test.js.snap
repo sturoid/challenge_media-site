@@ -1,6 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<UserWorkExperience /> renders correctly and equals snapshot 1`] = `
+exports[`<UserWorkExperience /> renders correctly with an empty array 1`] = `
+<div
+  className="css-arfcei"
+>
+  No work experience yet
+</div>
+`;
+
+exports[`<UserWorkExperience /> renders correctly with data 1`] = `
 <div
   className="css-qijqp5"
 >

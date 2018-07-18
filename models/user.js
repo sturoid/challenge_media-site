@@ -6,58 +6,85 @@ const apiAuth = `&client_id=${keys.BEHANCE_API_KEY}`;
 
 class User {
   static async search(query) {
-    const {
-      data: { users }
-    } = await axios.get(`${apiPath}?q=${query}&${apiAuth}`);
+    try {
+      const {
+        data: { users }
+      } = await axios.get(`${apiPath}?q=${query}&${apiAuth}`);
 
-    return users;
+      return users || [];
+    } catch (e) {
+      return [];
+    }
   }
 
   static async get(id) {
-    const {
-      data: { user }
-    } = await axios.get(`${apiPath}/${id}?${apiAuth}`);
+    try {
+      const {
+        data: { user }
+      } = await axios.get(`${apiPath}/${id}?${apiAuth}`);
 
-    return user;
+      return user || {};
+    } catch (e) {
+      return {};
+    }
   }
 
   static async projects(id) {
-    const {
-      data: { projects }
-    } = await axios.get(`${apiPath}/${id}/projects?${apiAuth}`);
-
-    return projects;
+    try {
+      const {
+        data: { projects }
+      } = await axios.get(`${apiPath}/${id}/projects?${apiAuth}`);
+      return projects || [];
+    } catch (e) {
+      return [];
+    }
   }
 
   static async followers(id) {
-    const {
-      data: { followers }
-    } = await axios.get(`${apiPath}/${id}/followers?${apiAuth}`);
-    return followers;
+    try {
+      const {
+        data: { followers }
+      } = await axios.get(`${apiPath}/${id}/followers?${apiAuth}`);
+      return followers || [];
+    } catch (e) {
+      return [];
+    }
   }
 
   static async following(id) {
-    const {
-      data: { followers }
-    } = await axios.get(`${apiPath}/${id}/followers?${apiAuth}`);
+    try {
+      const {
+        data: { following }
+      } = await axios.get(`${apiPath}/${id}/following?${apiAuth}`);
 
-    return followers;
+      return following || [];
+    } catch (e) {
+      return [];
+    }
   }
 
   static async stats(id) {
-    const {
-      data: { stats }
-    } = await axios.get(`${apiPath}/${id}/stats?${apiAuth}`);
+    try {
+      const {
+        data: { stats }
+      } = await axios.get(`${apiPath}/${id}/stats?${apiAuth}`);
 
-    return stats;
+      return stats || {};
+    } catch (e) {
+      return {};
+    }
   }
 
   static async workExperience(id) {
-    const {
-      data: { workExperience }
-    } = await axios.get(`${apiPath}/${id}/work_experience?${apiAuth}`);
+    try {
+      const {
+        data: { work }
+      } = await axios.get(`${apiPath}/${id}/work_experience?${apiAuth}`);
 
-    return workExperience || [];
+      return work || [];
+    } catch (e) {
+      return [];
+    }
   }
 }
 
