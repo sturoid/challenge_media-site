@@ -1,77 +1,57 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import axios from 'axios';
+import React from 'react';
+import { Query } from 'react-apollo';
+import { gql } from 'apollo-boost';
+import { debounce } from 'lodash';
 import Loader from '../_shared/Loader/';
 import Suggestions from '../SearchSuggestions/';
-import { searchDataFieldType } from '../../lib/propTypes';
 import inputStyle from './Search.styles';
 
-class Search extends Component {
+const SEARCH_USERS = gql`
+  query users($query: String!) {
+    users(query: $query) {
+      id
+      name
+      location
+      occupation
+    }
+  }
+`;
+
+class Search extends React.Component {
   state = {
-    error: false,
-    loading: false,
-    query: '',
-    results: []
+    query: ''
   };
 
-  getData = () => {
-    this.setState({ loading: true });
+  // Debounce user input to reduce API calls.
+  getSearchResults = debounce(query => {
+    this.setState({ query });
+  }, 250);
 
-    axios
-      .get(this.props.src, { params: { q: this.state.query } })
-      .then(({ data }) => {
-        this.setState({ results: data, loading: false });
-      })
-      .catch(() => this.setState({ error: true, loading: false }));
-  };
-
-  handleInputChange = () => {
-    this.setState(
-      {
-        query: this.search.value
-      },
-      () => {
-        if (this.state.query && this.state.query.length > 1) {
-          this.getData();
-        } else if (!this.state.query) {
-          this.setState({ results: [] });
-        }
-      }
-    );
+  handleInputChange = e => {
+    this.getSearchResults(e.target.value);
   };
 
   render() {
-    const { fields } = this.props;
-    const { results, error, loading } = this.state;
     return (
       <form>
-        {error && (
-          <div className="error">
-            Sorry there was an error :(. Please try again.
-          </div>
-        )}
         <input
           className={inputStyle}
           placeholder="Search for a user..."
-          ref={input => {
-            this.search = input;
-          }}
           onChange={this.handleInputChange}
         />
-
-        <Loader loading={loading} />
-
-        {!loading && results && results.length ? (
-          <Suggestions results={results} fields={fields} />
-        ) : null}
+        {this.state.query &&
+          this.state.query.length && (
+            <Query query={SEARCH_USERS} variables={{ query: this.state.query }}>
+              {({ loading, error, data }) => {
+                if (loading) return <Loader loading />;
+                if (error) return `Error!: ${error}`;
+                return <Suggestions results={data.users} />;
+              }}
+            </Query>
+          )}
       </form>
     );
   }
 }
-
-Search.propTypes = {
-  src: PropTypes.string.isRequired,
-  fields: PropTypes.arrayOf(searchDataFieldType).isRequired
-};
 
 export default Search;

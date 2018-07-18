@@ -5,14 +5,7 @@ import { wrapper600 } from '../../lib/wrappers.styles';
 const UsersPage = () => (
   <section>
     <div className={wrapper600}>
-      <Search
-        src="/api/v1/users"
-        fields={[
-          { name: 'Name', value: 'display_name' },
-          { name: 'Username', value: 'username' },
-          { name: 'Location', value: 'location' }
-        ]}
-      />
+      <Search />
     </div>
   </section>
 );

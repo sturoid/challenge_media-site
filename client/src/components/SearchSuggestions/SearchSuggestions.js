@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Redirect } from 'react-router-dom';
-import { searchDataFieldType } from '../../lib/propTypes';
 import Table from '../_shared/Table/';
 
 class SearchSuggestions extends React.Component {
@@ -16,7 +15,7 @@ class SearchSuggestions extends React.Component {
   };
 
   render() {
-    const { results, fields } = this.props;
+    const { results } = this.props;
 
     if (this.state.toRoute) {
       return <Redirect to={`/user/${this.state.toRoute}`} />;
@@ -29,7 +28,9 @@ class SearchSuggestions extends React.Component {
             <Table>
               <thead>
                 <tr>
-                  {fields.map(field => <th key={field.name}>{field.name}</th>)}
+                  <th>Name</th>
+                  <th>Location</th>
+                  <th>Occupation</th>
                 </tr>
               </thead>
               <tbody>
@@ -38,9 +39,9 @@ class SearchSuggestions extends React.Component {
                     key={result.id}
                     onClick={e => this.handleClick(e, result.id)}
                   >
-                    {fields.map(field => (
-                      <td key={field.name}>{result[field.value]}</td>
-                    ))}
+                    <td>{result.name}</td>
+                    <td>{result.location}</td>
+                    <td>{result.occupation}</td>
                   </tr>
                 ))}
               </tbody>
@@ -52,8 +53,7 @@ class SearchSuggestions extends React.Component {
 }
 
 SearchSuggestions.propTypes = {
-  results: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
-  fields: PropTypes.arrayOf(searchDataFieldType).isRequired
+  results: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
 };
 
 export default SearchSuggestions;
