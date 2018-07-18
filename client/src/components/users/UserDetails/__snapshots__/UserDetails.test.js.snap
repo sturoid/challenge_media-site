@@ -5,10 +5,10 @@ exports[`<UserDetails /> renders correctly and equals snapshot 1`] = `
   className="css-1rypxo3"
 >
   <div>
-    Johny vino™ .
+    Johny Vino
   </div>
   <div>
-    New York, United States
+    New York, NY, USA
   </div>
 </div>
 `;

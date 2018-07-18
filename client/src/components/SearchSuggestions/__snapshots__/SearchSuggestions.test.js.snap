@@ -13,10 +13,10 @@ exports[`<SearchSuggestions /> renders correctly and equals snapshot 1`] = `
           Name
         </th>
         <th>
-          Age
+          Location
         </th>
         <th>
-          State
+          Occupation
         </th>
       </tr>
     </thead>
@@ -27,12 +27,8 @@ exports[`<SearchSuggestions /> renders correctly and equals snapshot 1`] = `
         <td>
           Stuart Clove
         </td>
-        <td>
-          33
-        </td>
-        <td>
-          Utah
-        </td>
+        <td />
+        <td />
       </tr>
       <tr
         onClick={[Function]}
@@ -40,12 +36,8 @@ exports[`<SearchSuggestions /> renders correctly and equals snapshot 1`] = `
         <td>
           Jo Whitney
         </td>
-        <td>
-          27
-        </td>
-        <td>
-          Utah
-        </td>
+        <td />
+        <td />
       </tr>
       <tr
         onClick={[Function]}
@@ -53,12 +45,8 @@ exports[`<SearchSuggestions /> renders correctly and equals snapshot 1`] = `
         <td>
           Cooper Whitney
         </td>
-        <td>
-          7
-        </td>
-        <td>
-          Florida
-        </td>
+        <td />
+        <td />
       </tr>
     </tbody>
   </table>

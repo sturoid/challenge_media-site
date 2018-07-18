@@ -23,47 +23,39 @@ exports[`<UserFollowers /> renders correctly and equals snapshot 1`] = `
     <tbody>
       <tr>
         <td>
-          Florian Schulz
-        </td>
-        <td>
-           Germany
+          Florian
         </td>
         <td>
           Interaction Design Student
         </td>
+        <td />
       </tr>
       <tr>
         <td>
           Amy Moore
         </td>
         <td>
-          New York United States
-        </td>
-        <td>
           First Assistant
         </td>
+        <td />
       </tr>
       <tr>
         <td>
-          Maxime DUBREUCQ
-        </td>
-        <td>
-          California United States
+          Maxime
         </td>
         <td>
           Industrial Designer
         </td>
+        <td />
       </tr>
       <tr>
         <td>
           Sean Blanda
         </td>
         <td>
-          New York United States
-        </td>
-        <td>
           Associate Editor
         </td>
+        <td />
       </tr>
     </tbody>
   </table>

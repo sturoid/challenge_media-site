@@ -23,113 +23,39 @@ exports[`<UserFollowing /> renders correctly and equals snapshot 1`] = `
     <tbody>
       <tr>
         <td>
-          Benjamin Gage
-        </td>
-        <td>
-          New York United States
+          Gage
         </td>
         <td>
           
         </td>
+        <td />
       </tr>
       <tr>
         <td>
-          Kristin Duhaime
-        </td>
-        <td>
-          New York United States
+          Kristin
         </td>
         <td>
           
         </td>
+        <td />
       </tr>
       <tr>
         <td>
-          Florian Schulz
-        </td>
-        <td>
-           Germany
+          Florian
         </td>
         <td>
           Interaction Design Student
         </td>
+        <td />
       </tr>
       <tr>
         <td>
           Amy Moore
         </td>
         <td>
-          New York United States
-        </td>
-        <td>
           First Assistant
         </td>
-      </tr>
-      <tr>
-        <td>
-          ClÃ©ment Faydi
-        </td>
-        <td>
-          New York United States
-        </td>
-        <td>
-          Lead Designer
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Raewyn Brandon
-        </td>
-        <td>
-          New York United States
-        </td>
-        <td>
-          Web & Graphic Designer
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Oscar Ramos Orozco
-        </td>
-        <td>
-          New York United States
-        </td>
-        <td>
-          Chief Curator
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Samir Sadikhov
-        </td>
-        <td>
-           Azerbaijan
-        </td>
-        <td>
-          
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Matias Corea
-        </td>
-        <td>
-          New York United States
-        </td>
-        <td>
-          Co-Founder & Chief Designer
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Zach McCullough
-        </td>
-        <td>
-          New York United States
-        </td>
-        <td>
-          Senior Designer
-        </td>
+        <td />
       </tr>
     </tbody>
   </table>

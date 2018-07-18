@@ -31,8 +31,8 @@ UserWorkExperience.propTypes = {
   work: PropTypes.arrayOf(
     PropTypes.shape({
       position: PropTypes.string.isRequired,
-      organization: PropTypes.string.isRequired,
-      location: PropTypes.string.isRequired
+      organization: PropTypes.string,
+      location: PropTypes.string
     })
   ).isRequired
 };

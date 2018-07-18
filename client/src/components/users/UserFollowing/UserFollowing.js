@@ -31,8 +31,8 @@ UserFollowing.propTypes = {
   following: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
-      location: PropTypes.string.isRequired,
-      occupation: PropTypes.string.isRequired
+      location: PropTypes.string,
+      occupation: PropTypes.string
     })
   ).isRequired
 };
