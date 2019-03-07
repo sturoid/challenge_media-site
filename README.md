@@ -2,8 +2,6 @@
 Place the dev.js file in the config folder so the Behance API key is present.
 * react-only branch - Data layer uses React only.
 * graphql branch - Data layer uses GraphQL with Apollo.
-* TODO: redux branch - Data layer uses Redux.
-* TODO: mobx branch - Data layer uses Mobx. 
 
 ```
 > npm install
